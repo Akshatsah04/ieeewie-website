@@ -15,23 +15,7 @@ const Faculty = [
     linkedin: "",
   },
   {
-    id: 2,
-    name: "Dr Shishir Singh Chauhan",
-    designation: "Faculty Advisor (IEEE CS)",
-    img: "/Team/faculty/shishir.avif",
-    instagram: "",
-    linkedin: "",
-  },
-  {
     id: 3,
-    name: "Dr. Sumit Srivastava",
-    designation: "IEEE Student Branch (Advisor)",
-    img: "/Team/faculty/sumit.avif",
-    instagram: "",
-    linkedin: "",
-  },
-  {
-    id: 4,
     name: "Ms. Juhi Singh",
     designation: "Faculty Co-coordinator (IEEE WIE)",
     img: "/Team/faculty/juhi.avif",
@@ -39,13 +23,22 @@ const Faculty = [
     linkedin: "",
   },
   {
-    id: 5,
+    id: 4,
     name: "Dr Sunita Singhal",
     designation: "Faculty Coordinator, WIE",
     img: "/Team/faculty/sunita.avif",
     instagram: "",
     linkedin: "",
-  }
+  },
+  {
+    id: 2,
+    name: "Dr. Rishav Dubey",
+    designation: "Faculty Coordinator, WIE",
+    img: "/Team/faculty/rishav.jpg",
+    instagram: "",
+    linkedin: "",
+  },
+  
 ]
 //Advisory
 
@@ -211,7 +204,7 @@ const coreCommittee = [
     id: 40,
     name: "Sarath Mohanraj ",
     designation: "Senior Coordinator logistics ",
-    img: "/Team/sarathmohanraj.jpg",
+    img: "/Team/sarathmohanraj1.jpg",
     instagram: "https://www.instagram.com/sarathmohanraj?igsh=MTRva3d5cGtjaGhhNg==",
     linkedin:"https://www.linkedin.com/in/sarath-mohanraj-55aa74335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     github:"",
