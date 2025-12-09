@@ -15,27 +15,27 @@ export default function Home() {
   const blogData = [
     {
       id: 1,
-      title: "🌍 From Dreams to Departure: Your Complete Roadmap to a Master’s Abroad 🎓",
-      author: "Chinmayee Khanna",
-      imageUrl: "/blog5.jpg",
+      title: "🧠 Why Intuitive Intelligence Matters in Tech ⚡",
+      author: "Suryansh Shah’s",
+      imageUrl: "/blog6.jpeg",
       readMoreUrl:
-        "https://medium.com/@ieee.wiemuj/from-dreams-to-departure-your-complete-roadmap-to-a-masters-abroad-9a7b1f7d3eb1",
+        "https://medium.com/@ieee.wiemuj/the-inner-algorithm-balancing-intuition-and-logic-in-a-data-driven-world-f54a4a282f6c",
     },
     {
       id: 2,
-      title: "Control + Alt + Curiosity",
-      author: "Ashita Saxena",
-      imageUrl: "/blog4.jpg",
+      title: "🧠 Disrupt the Cycle: From Cramming to Curiosity 🔥",
+      author: "Suhina Ray’s",
+      imageUrl: "/blog7.jpeg",
       readMoreUrl:
-        "https://medium.com/@ieee.wiemuj/control-alt-curiosity-why-every-student-should-explore-beyond-the-syllabus-4891ec6b7313",
+        "https://medium.com/@ieee.wiemuj/disrupt-the-cycle-from-cramming-to-curiosity-8c06506a6bcc",
     },
     {
       id: 3,
-      title: "Stepping Into the 5G Era: Speed, Innovation & What Lies Ahead",
-      author: "Ashita Saxena",
-      imageUrl: "/blog1.jpg",
+      title: "🧠 The Biases in Our Minds and Machines 🤖",
+      author: "Shnighddha Pandey",
+      imageUrl: "/blog8.jpeg",
       readMoreUrl:
-        "https://medium.com/@ieee.wiemuj/the-transformative-impact-of-5g-on-communication-and-industry-a4839be39911",
+        "https://medium.com/@ieee.wiemuj/the-hidden-biases-in-our-minds-and-machines-7bf9fa102a8c",
     }
   ];
 

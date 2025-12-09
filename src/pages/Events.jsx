@@ -6,12 +6,32 @@ import EventBanner from "./EventBanner";
 function Events() {
   const allEvents = [
     {
+      id: 96,
+      title: "Bits n Brews 7.0 – Alumni Talk Series",
+      image: "/Events/bnb7.jpeg",
+      date: "24 October",
+      year: "2025",
+      isPast: false,
+      description:
+        "the 7th edition of Bits n Brews as we sit down with our alumna Khushi Garg, Software Developer at JPMorgan Chase and a passionate tech enthusiast whose journey reflects curiosity, perseverance, and innovation.",
+    },
+    {
+      id: 95,
+      title: "The Circle of Deception: Where Logic Meets Lies!",
+      image: "/Events/deception.jpeg",
+      date: "9 October",
+      year: "2025",
+      isPast: true,
+      description:
+        "The Circle of Deception is a psychological train. Your tech knowledge gets you a seat at the table, but final victory is reserved for the master of pure deception. Get ready for mind games!",
+    },
+    {
       id: 94,
       title: "Bits n Brews 6.0",
       image: "/Events/bnb6.jpg",
       date: "19 July",
       year: "2025",
-      isPast: false,
+      isPast: true,
       description:
         "Bits n Brews 6.0 – Alumni Talk Series | Sip on stories that inspire as Aishwary Shree (Ex-ISRO SAC, Ex-EY, PwC India, Master of IT @ University of Melbourne) shares real talk and raw experiences",
     },
