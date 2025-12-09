@@ -41,6 +41,26 @@ export default function Home() {
 
   const eventData = [
     {
+      id: 95,
+      title: "The Circle of Deception: Where Logic Meets Lies!",
+      image: "/Events/deception.jpeg",
+      date: "9 October",
+      year: "2025",
+      isPast: true,
+      description:
+        "The Circle of Deception is a psychological train. Your tech knowledge gets you a seat at the table, but final victory is reserved for the master of pure deception. Get ready for mind games!",
+    },
+    {
+      id: 94,
+      title: "Bits n Brews 6.0",
+      image: "/Events/bnb6.jpg",
+      date: "19 July",
+      year: "2025",
+      isPast: true,
+      description:
+        "Bits n Brews 6.0 – Alumni Talk Series | Sip on stories that inspire as Aishwary Shree (Ex-ISRO SAC, Ex-EY, PwC India, Master of IT @ University of Melbourne) shares real talk and raw experiences",
+    },
+    {
       id: 93,
       title: "Cyber Arena",
       image: "/Events/cyberarena.jpg",
@@ -49,26 +69,6 @@ export default function Home() {
       isPast: true,
       description:
         "International event based on cybersecurity, where participants will compete in various challenges related to cybersecurity..",
-    },
-    {
-      id: 92,
-      title: "BrandIT 2.0",
-      image: "/Events/brandit2.0.jpg",
-      date: "18 June",
-      year: "2025",
-      isPast: true,
-      description:
-        "Where design meets dev, and brands are born. BrandIt is a dynamic and engaging event. Participants will develop unique brand ideas into websites. ",
-    },
-    {
-      id: 91,
-      title: "HardWired",
-      image: "/Events/hardwired.jpg",
-      date: "5 April",
-      year: "2025",
-      isPast: true,
-      description:
-        "A creative competition that challenges participants to design innovative, practical projects using Arduino, pushing the boundaries of technology and hands-on development.",
     }
   ];
 
