@@ -14,62 +14,62 @@ export default function Home() {
 
   const blogData = [
     {
-      id: 1,
-      title: "🧠 Why Intuitive Intelligence Matters in Tech ⚡",
-      author: "Suryansh Shah’s",
-      imageUrl: "/blog6.jpeg",
+      id: 3,
+      title: "🌱 Data Cleaning Techniques Every Analyst Should Know 📊",
+      author: "Chinmayee Khanna",
+      imageUrl: "/blog11.jpeg",
       readMoreUrl:
-        "https://medium.com/@ieee.wiemuj/the-inner-algorithm-balancing-intuition-and-logic-in-a-data-driven-world-f54a4a282f6c",
+        "https://medium.com/@ieee.wiemuj/data-cleaning-techniques-every-analyst-should-know-0a9ab0adbb50",
     },
     {
       id: 2,
-      title: "🧠 Disrupt the Cycle: From Cramming to Curiosity 🔥",
-      author: "Suhina Ray’s",
-      imageUrl: "/blog7.jpeg",
+      title: "🌟 What Happens When Systems Fail-And Humans Take Over 🌟",
+      author: "Ashita Saxena",
+      imageUrl: "/blog10.jpeg",
       readMoreUrl:
-        "https://medium.com/@ieee.wiemuj/disrupt-the-cycle-from-cramming-to-curiosity-8c06506a6bcc",
+        "https://medium.com/@ieee.wiemuj/what-happens-when-systems-fail-and-humans-take-over-8120ed4c2ae5",
     },
     {
-      id: 3,
-      title: "🧠 The Biases in Our Minds and Machines 🤖",
-      author: "Shnighddha Pandey",
-      imageUrl: "/blog8.jpeg",
+      id: 1,
+      title: "🌐 Exploring the Metaverse: Your Guide to the Virtual Universe ✨",
+      author: "Shreya Singh",
+      imageUrl: "/blog9.jpeg",
       readMoreUrl:
-        "https://medium.com/@ieee.wiemuj/the-hidden-biases-in-our-minds-and-machines-7bf9fa102a8c",
-    }
+        "https://medium.com/@ieee.wiemuj/exploring-the-metaverse-your-guide-to-the-virtual-universe-5dace13f5716",
+    },
   ];
 
   const eventData = [
     {
-      id: 95,
-      title: "The Circle of Deception: Where Logic Meets Lies!",
-      image: "/Events/deception.jpeg",
-      date: "9 October",
-      year: "2025",
-      isPast: true,
+      id: 104,
+      title: "Crown Conquest",
+      image: "/Events/crownconquest.jpeg",
+      date: "13 March",
+      year: "2026",
+      isPast: false,
       description:
-        "The Circle of Deception is a psychological train. Your tech knowledge gets you a seat at the table, but final victory is reserved for the master of pure deception. Get ready for mind games!",
+        "A competitive team-based brain game where participants solve challenges to claim and defend a crown, facing rival teams in a dynamic battle of strategy and intelligence.",
     },
     {
-      id: 94,
-      title: "Bits n Brews 6.0",
-      image: "/Events/bnb6.jpg",
-      date: "19 July",
-      year: "2025",
+      id: 103,
+      title: "HerVerdict",
+      image: "/Events/herverdict.jpeg",
+      date: "11 February",
+      year: "2026",
       isPast: true,
       description:
-        "Bits n Brews 6.0 – Alumni Talk Series | Sip on stories that inspire as Aishwary Shree (Ex-ISRO SAC, Ex-EY, PwC India, Master of IT @ University of Melbourne) shares real talk and raw experiences",
+        "A courtroom-style debate event where participants argue on fun and relatable topics like mess food, hostel vs day scholar, and tech vs cultural fest. With women holding the gavel, expect bold arguments, objections, and dramatic moments.",
     },
     {
-      id: 93,
-      title: "Cyber Arena",
-      image: "/Events/cyberarena.jpg",
-      date: "30 June - 2 July",
-      year: "2025",
+      id: 102,
+      title: "VisionIAS Career Guidance Session",
+      image: "/Events/visionias2.jpeg",
+      date: "11 February",
+      year: "2026",
       isPast: true,
       description:
-        "International event based on cybersecurity, where participants will compete in various challenges related to cybersecurity..",
-    }
+        "A mentorship session offering personalized career guidance, insights into UPSC and government careers, discounts on VisionIAS courses, and access to premium resources.",
+    },
   ];
 
   useEffect(() => {
