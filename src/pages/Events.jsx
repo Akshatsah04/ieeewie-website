@@ -6,7 +6,7 @@ import EventBanner from "./EventBanner";
 function Events() {
   const allEvents = [
     {
-      id: 104,
+      id: 105,
       title: "Crown Conquest",
       image: "/Events/crownconquest.jpeg",
       date: "13 March",
@@ -14,6 +14,16 @@ function Events() {
       isPast: false,
       description:
         "A competitive team-based brain game where participants solve challenges to claim and defend a crown, facing rival teams in a dynamic battle of strategy and intelligence.",
+    },
+    {
+      id: 104,
+      title: "Mukti – Closing Ceremony of Elysium 2.0",
+      image: "/Events/mukti.png",
+      date: "11 February",
+      year: "2026",
+      isPast: true,
+      description:
+        "Mukti marked the closing ceremony of Elysium 2.0, bringing together participants, organizers, and faculty to celebrate the successful completion of the event. The ceremony highlighted achievements across segments like Confluence, Swara, The Deal Room, and HerVerdict, followed by prize distribution recognizing innovation and performance. It also expressed gratitude to mentors, partners, and supporters, concluding with reflections on the journey and inspiration for future editions.",
     },
     {
       id: 103,
