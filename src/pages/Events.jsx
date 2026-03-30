@@ -6,12 +6,22 @@ import EventBanner from "./EventBanner";
 function Events() {
   const allEvents = [
     {
+      id: 106,
+      title: "BREACH POINT",
+      image: "/Events/breachpoint.jpeg",
+      date: "23 March",
+      year: "2026",
+      isPast: false,
+      description:
+        "An interactive cybersecurity session offering real-world insights into career paths, global opportunities, research trends, and hands-on exposure to the Cyberange Lab, designed to go beyond theory and into practical learning.",
+    },
+    {
       id: 105,
       title: "Crown Conquest",
       image: "/Events/crownconquest.jpeg",
       date: "13 March",
       year: "2026",
-      isPast: false,
+      isPast: true,
       description:
         "A competitive team-based brain game where participants solve challenges to claim and defend a crown, facing rival teams in a dynamic battle of strategy and intelligence.",
     },
